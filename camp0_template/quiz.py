@@ -1,14 +1,14 @@
 quiz = {
-        "What is Python?":
-            "A programming language",
-        "Who is called the Father of Computer Science?":
-            "Alan Turing",
-        "Who is the current president of the US?":
-            "Barack Obama",
-        "In which country was Albert Einstein born?":
-            "Germany",
-        "Is the iPhone a computer?":
-            "Yes"
+        "What is the name of Hiccup's Night Fury dragon?":
+            "Toothless",
+        "Which country won the Thomas Cup in 2014?":
+            "Japan",
+        "Who is the soulmate of Barbie?":
+            "Ken",
+        "How many countries are there in South East Asia (in numbers)?":
+            "11",
+        "What is the Theme Song of Frozen?":
+            "Let it go"
         }
 
 total_score = 0
