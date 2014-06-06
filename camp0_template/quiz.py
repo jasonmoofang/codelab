@@ -29,4 +29,5 @@ print "Welcome to the quiz!"
 for q, a in quiz.iteritems():
     ask_question(q,a)
 
-print "The quiz is over! Your final score is: " + str(total_score)
+print "The quiz is over! Your final score is:"
+print total_score
