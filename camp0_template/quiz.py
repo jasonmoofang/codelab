@@ -21,7 +21,8 @@ def ask_question(question, right_answer):
         total_score = total_score + 2
         print "That was correct!"
     else:
-        print "That was wrong :( The answer was: " + right_answer
+        print "That was wrong :( The answer was:"
+        print right_answer
 
 
 print "Welcome to the quiz!"
