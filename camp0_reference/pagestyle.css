@@ -1,0 +1,30 @@
+body {
+	padding-left: 100px;
+	width:1000px;
+	background-color: WhiteSmoke;
+	font-family: Arial;
+}
+
+img {
+	border: 1px solid Black;
+}
+
+h1 {
+	color: DimGray;
+}
+
+a:link, a:visited {
+	color: DarkOrange;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+blockquote {
+	padding: 10px;
+	background-color: White;
+	border-left: 5px solid DarkOrange;
+	font-style: italic;
+}
