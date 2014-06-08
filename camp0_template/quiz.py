@@ -8,7 +8,7 @@ quiz = {
         "How many countries are there in South East Asia (in numbers)?":
             "11",
         "What is the Theme Song of Frozen?":
-            "Let it go"
+            "Let It Go"
         }
 
 total_score = 0
