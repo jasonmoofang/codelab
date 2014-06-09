@@ -1,14 +1,14 @@
 quiz = {
-        "What is Python?":
-            "A programming language",
-        "Who is called the Father of Computer Science?":
-            "Alan Turing",
-        "Who is the current president of the US?":
-            "Barack Obama",
-        "In which country was Albert Einstein born?":
-            "Germany",
-        "Is the iPhone a computer?":
-            "Yes"
+        "What is the name of Hiccup's Night Fury dragon?":
+            "Toothless",
+        "Which country won the Thomas Cup in 2014?":
+            "Japan",
+        "Who is the soulmate of Barbie?":
+            "Ken",
+        "How many countries are there in South East Asia (in numbers)?":
+            "11",
+        "What is the Theme Song of Frozen?":
+            "Let It Go"
         }
 
 total_score = 0
@@ -21,7 +21,8 @@ def ask_question(question, right_answer):
         total_score = total_score + 2
         print "That was correct!"
     else:
-        print "That was wrong :( The answer was: " + right_answer
+        print "That was wrong :( The answer was:"
+        print right_answer
 
 
 print "Welcome to the quiz!"
@@ -29,4 +30,5 @@ print "Welcome to the quiz!"
 for q, a in quiz.iteritems():
     ask_question(q,a)
 
-print "The quiz is over! Your final score is: " + str(total_score)
+print "The quiz is over! Your final score is:"
+print total_score
